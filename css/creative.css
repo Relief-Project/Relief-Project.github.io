@@ -35,7 +35,9 @@ a:hover,
 a:focus {
     color: #eb3812;
 }
-
+.designed-by {
+    padding-top: 50px;
+}
 h1,
 h2,
 h3,
@@ -194,7 +196,6 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
-    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
 }
 
 header .header-content .header-content-inner h1 {
@@ -202,6 +203,10 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
+}
+header .header-content .header-content-inner h2 {
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
 }
 
 header .header-content .header-content-inner hr {
@@ -213,7 +218,8 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.8);
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
 }
 
 @media(min-width:768px) {
