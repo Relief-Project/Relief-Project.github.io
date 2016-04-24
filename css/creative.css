@@ -237,6 +237,7 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content .header-content-inner {
+        margin-top: 10%;
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
